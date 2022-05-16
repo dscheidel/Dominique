@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum</title>
+<link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+<script>
+    'use strict';
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        
+        navBarToggle.addEventListener('click', toggleNavBar);
+        
+        function toggleNavBar() {
+            mainNav.classList.toggle('active');
+        }
+        
+    });
+</script>
+</head>
+
+<body>
+    
+    <header>
+        <a href="start.html"><h1>Plotterbilly</h1></a>
+    </header>
+    
+    
+    <nav class="navbar">   
+        <div id="js-navbar-toggle"><i class="fa fa-bars"></i></div>
+  
+        <ul class="main-nav" id="js-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="shirts.html">Shirts</a></li>
+            <li><a href="baby.html">Plotterdateien</a></li>
+            <li><a href="photoshop.html">Photoshop</a></li>
+            <li><a href="illustration.html">Illustrationen</a></li>
+            <li><a href="logo.html">Logos</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="#">Impressum</a></li>
+           
+         
+        </ul>
+      </nav>
+    
+    <main>
+    
+    <h1>Impressum</h1>
+
+        <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+        <p>Dominique Scheidel<br />
+        Am Langen Weg 4<br />
+        96110 Scheßlitz</p>
+
+        <h2>Kontakt</h2>
+        <p>Telefon: 015774914036<br />
+        E-Mail: plotterbilly@gmx.de</p>
+
+        <h2>Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+        <p>Berufsbezeichnung:<br />
+        Mediengestalter Digital und Print</p>
+        <p>Zust&auml;ndige Kammer:<br />
+        </p>
+        <p>Verliehen in:<br />
+        Deutschland</p>
+        <p>Es gelten folgende berufsrechtliche Regelungen:</p>
+        <h2>Redaktionell verantwortlich</h2>
+        <p>Dominique Scheidel</p>
+
+        <h2>EU-Streitschlichtung</h2>
+        <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+
+        <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+        <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+        <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+    </main>
+    
+    
+    <footer>
+        <ul class="social-menu"> 
+            <li><a href="https://facebook.com/plotterbilly" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com/plotterbilly" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+            <li><a href="kontakt.html"><i class="fas fa-user-edit"></i></a></li> 
+            <li><a href="#"><i class="fas fa-info"></i></a></li>
+            <li><a href="datenschutz.html"><i class="fas fa-lock"></i></a></li>
+         </ul>
+    </footer>
+    
+        <script>  
+    function toggleMenu() {
+        
+        var toggleLinks = document.getElementsByClassName("toggle-link");
+        
+            for(var i=0; i<toggleLinks.length; i++) {
+                
+                if(toggleLinks[i].style.display === "block") {
+                   toggleLinks[i].style.display = "none";
+                   } else {
+                       toggleLinks[i].style.display = "block";
+                   }
+        }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+            <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+            <link rel="stylesheet" href="../css/styles.css">
+
+            <script>
+                'use strict';
+                document.addEventListener('DOMContentLoaded', function () {
+                    
+                    let mainNav = document.getElementById('js-menu');
+                    let navBarToggle = document.getElementById('js-navbar-toggle');
+                    
+                    navBarToggle.addEventListener('click', toggleNavBar);
+                    
+                    function toggleNavBar() {
+                        mainNav.classList.toggle('active');
+                    }
+                    
+                });
+
+                
+            </script>
+</head>
+
+<body>
+    
+    <header>
+    <a href="#"><h1>Plotterbilly</h1></a>
+    </header>
+    
+    
+    <nav class="navbar">   
+        <div id="js-navbar-toggle"><i class="fa fa-bars"></i></div>
+  
+        <ul class="main-nav" id="js-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="shirts.html">Shirts</a></li>
+          <li><a href="baby.html">Plotterdateien</a></li>
+          <li><a href="photoshop.html">Photoshop</a></li>
+          <li><a href="illustration.html">Illustrationen</a></li>
+          <li><a href="logo.html">Logos</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+           
+         
+        </ul>
+      </nav>
+    
+    
+    
+    <main>
+    
+        
+
+    </main>
+    
+    
+      <footer>
+        <ul class="social-menu"> 
+            <li><a href="https://facebook.com/plotterbilly" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com/plotterbilly" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+            <li><a href="kontakt.html"><i class="fas fa-user-edit"></i></a></li> 
+            <li><a href="impressum.html"><i class="fas fa-info"></i></a></li>
+            <li><a href="datenschutz.html"><i class="fas fa-lock"></i></a></li>
+         </ul>
+    </footer>
+    
+    
+ 
+
+
+</body>
+</html>

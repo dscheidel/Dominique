@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Eistüte</title>
+
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plotterbilly</h1>
+    </header>
+    
+    
+    <nav class="navbar">   
+        <div id="js-navbar-toggle"><i class="fa fa-bars"></i></div>
+  
+        <ul class="main-nav" id="js-menu">
+          <li><a href="start.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="shirts.html">Shirts</a></li>
+          <li><a href="baby.html">Plotterdateien</a></li>
+          <li><a href="mockups.html">Mockups</a></li>
+          <li><a href="logo.html">Logos</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+           
+         
+        </ul>
+      </nav>
+    
+    <br>
+
+
+    <main id=einzelseite>
+
+        <img id="shirteinzel" src="../img/Free_T-Shirt_Mockup_3 Kopie.jpg" alt="Tshirt mit dem Aufdruck einer Pizza">
+
+        <div id=einzeltext>
+          <h2>Pizzalove</h2>
+            <br>
+          <p>Verwendetes Programm: Adobe Illustrator & Photoshop<br>
+          <br>
+          for a colleague <br>
+          <br>
+          2022</p>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <ul class="social-menu"> 
+            <li><a href="https://facebook.com/plotterbilly" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com/plotterbilly" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+            <li><a href="kontakt.html"><i class="fas fa-user-edit"></i></a></li> 
+            <li><a href="impressum.html"><i class="fas fa-info"></i></a></li>
+            <li><a href="datenschutz.html"><i class="fas fa-lock"></i></a></li>
+         </ul>
+    </footer>
+    
+    
+    <script>
+        'use strict';
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            let mainNav = document.getElementById('js-menu');
+            let navBarToggle = document.getElementById('js-navbar-toggle');
+            
+            navBarToggle.addEventListener('click', toggleNavBar);
+            
+            function toggleNavBar() {
+                mainNav.classList.toggle('active');
+            }
+            
+        });
+    </script>
+</body>
+</html>
+
+</body>
+</html>
