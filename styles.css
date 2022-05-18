@@ -93,12 +93,11 @@ h4 {
 		text-align: center;
 		top: 55%;
 		left: 55%;
-		transform: translate(-50%, -50%) rotate(0);
 		color: #fff;
-		z-index: 5;
 		font-size: 1.2rem;
         	font-weight: bold;
-		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		
 }
 		
     
