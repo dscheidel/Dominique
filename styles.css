@@ -51,7 +51,7 @@ h4 {
 /*Buttons*/  
         
 	.container {
-        display: block;
+        	display: block;
 		width: 200px;
 		position: relative;
 		margin: 70px auto 0 auto;
@@ -97,16 +97,11 @@ h4 {
 		color: #fff;
 		z-index: 5;
 		font-size: 1.2rem;
-        font-weight: bold;
+        	font-weight: bold;
 		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
 }
 		
-    .button:hover p {
-			transform: translate(-50%, -50%) rotate(-27deg);
-			font-size: 0;
-			transition: .2s;
-			opacity: 0;
-}
+    
 
     .button::before {
 			content: "";
@@ -120,12 +115,7 @@ h4 {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 		
-    .button:nth-child(odd):hover::before {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			transition: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
-}
+   
 
     .button::after {
 			content: "";
@@ -139,13 +129,7 @@ h4 {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 	
-    .button:nth-child(even):hover::after {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
-}
-		
+   
     .button span {
 			
 		    font-size: 5rem;
@@ -166,12 +150,7 @@ h4 {
 			transform-origin: right;
 }
 
-    .button:hover span {
-			width: auto;
-			transition: .5s .2s;
-			transform: rotateY(0);
-        }       
-        
+    
     .button a {
             color: #fff;
         }
