@@ -147,7 +147,7 @@ h4 {
 		
     .button span {
 			
-		    font-size: 5rem;
+		    	font-size: 5rem;
 			position: absolute;
 			left: 50px;
 			height: 200px;
@@ -156,6 +156,7 @@ h4 {
 			transform: rotateY(90deg);
 			transform-origin: left;
 			transition:  .5s;
+	    		font-weight: bold;
 			/*overflow: hidden;*/
 }
 		
