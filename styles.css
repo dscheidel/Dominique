@@ -83,7 +83,7 @@ h4 {
 		left: 55px;
 }
 
-    .button:nth-of-type(5) {
+    	.button:nth-of-type(5) {
 		top: -60px;
 		left: 0px;
 }	
@@ -96,12 +96,10 @@ h4 {
 		color: #fff;
 		font-size: 1.2rem;
         	font-weight: bold;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-		
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;	
 }
 		
     
-
     .button::before {
 			content: "";
 			width: 110px;
@@ -114,19 +112,6 @@ h4 {
 			
 }
 		
-   
-
-   
-
- 
-    
-		
-    .button:nth-child(odd) span {
-			right: 50px;
-			left: auto;
-			transform-origin: right;
-}
-
     
     .button a {
             color: #fff;
