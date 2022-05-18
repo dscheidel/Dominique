@@ -111,7 +111,7 @@ h4 {
 			top: 0;
 			left: 0;
 			clip-path: polygon(0 25%, 50% 0, 50% 100%, 0 75%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
+			
 }
 		
    
@@ -125,23 +125,11 @@ h4 {
 			top: 0;
 			left: -1px;
 			clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
+			
 }
 	
    
-    .button span {
-			
-		    font-size: 5rem;
-			position: absolute;
-			left: 50px;
-			height: 200px;
-			display: block;
-			line-height: 100px;
-			transform: rotateY(90deg);
-			transform-origin: left;
-			transition:  .5s;
-			/*overflow: hidden;*/
-}
+    
 		
     .button:nth-child(odd) span {
 			right: 50px;
