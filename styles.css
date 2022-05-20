@@ -178,12 +178,13 @@ h4 {
 /*Burgermenü*/
 
 	.burger {
-		width: 10%;
+		width: 5%;
 		max-width: 10rem;
 }
 
 	.burger:hover {
-		transform: scale(1.1)
+		transform: scale(1.1);
+		cursor: pointer;
 }
 
 /*Navigation*/
