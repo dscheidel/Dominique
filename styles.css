@@ -614,6 +614,7 @@ textarea:required {
 			transform: rotateY(90deg);
 			transform-origin: left;
 			transition:  .5s;
+	    		color: #fff;
 			/*overflow: hidden;*/
 }
 		
