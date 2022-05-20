@@ -154,6 +154,8 @@ h4 {
             color: #fff;
         }
 
+
+
 /*Header*/
 
 	header {
@@ -173,7 +175,15 @@ h4 {
         	text-align: center;
        	 	padding: 1rem;
 }
+/*Burgermenü*/
 
+	burger {
+		weight: 20rem;
+}
+
+	burger:hover {
+		transform: scale(1.1)
+}
 
 /*Navigation*/
 
@@ -194,70 +204,72 @@ h4 {
 }
 
 	nav ul {
-  	list-style-type: none;
-  	padding: 0;
-  	display: block;
-  	width: 100%; 
-  	text-align: center;   
+  		list-style-type: none;
+  		padding: 0;
+  		display: block;
+  		width: 100%; 
+  		text-align: center;   
 }
 
-nav ul li {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  padding: 0.2rem;
-  border: none;
-  margin: 0.4rem;
-  margin: 1rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-}
-
-
-nav ul li a {
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.6em;
-  padding: 0.5rem;
-  font-weight: bold;  
+	nav ul li {
+ 		font-family: Verdana, Geneva, Tahoma, sans-serif;
+  		display: flex;
+  		padding: 0.2rem;
+  		border: none;
+  		margin: 0.4rem;
+  		margin: 1rem;
+  		align-items: center;
+  		justify-content: center;
+  		border-radius: 5px;
 }
 
 
-#js-navbar-toggle {
-  width: 100%;  
-  font-size: 2.5rem;
+	nav ul li a {
+  		text-align: center;
+  		text-decoration: none;
+  		color: #fff;
+  		font-size: 1.6em;
+  		padding: 0.5rem;
+  		font-weight: bold;  
 }
 
-.main-nav {
-display: none;
+
+	#js-navbar-toggle {
+  		width: 100%;  
+  		font-size: 2.5rem;
+}
+
+	.main-nav {
+		display: none;
 }
 
 
-.navbar-toggle {
-position: relative;
-cursor: pointer; 
-color: #fff;
-font-size: 24px;
-display: block;
-padding: 1.5rem; 
+	.navbar-toggle {
+		position: relative;
+		cursor: pointer; 
+		color: #fff;
+		font-size: 24px;
+		display: block;
+		padding: 1.5rem; 
 }
 
-.active {
-display: block;
+	.active {
+		display: block;
 }   
+
+
 
 
 /*Navigation Hover*/
 
-nav ul li:hover {
-  transform: scale(1.1);
-  background-color: #785E7A;
+	nav ul li:hover {
+  		transform: scale(1.1);
+  		background-color: #785E7A;
 }
 
+
+
 /*Main*/
-
-
 
     main {
         margin: auto;
