@@ -178,8 +178,8 @@ h4 {
 /*Burgermenü*/
 
 	.burger {
-		width: 5%;
-		max-width: 10rem;
+		width: 20%;
+		max-width: 30rem;
 }
 
 	.burger:hover {
