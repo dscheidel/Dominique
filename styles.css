@@ -614,7 +614,6 @@ textarea:required {
 			transform: rotateY(90deg);
 			transform-origin: left;
 			transition:  .5s;
-	    		color: #fff;
 			/*overflow: hidden;*/
 }
 		
@@ -632,7 +631,7 @@ textarea:required {
         
     .button a {
             color: #fff;
-        }  
+        }
 	  
     /*Tshirts*/
 
@@ -859,6 +858,7 @@ textarea:required {
 		position: relative;
 		margin: 150px auto 0 auto;
 		font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    max-width: 50rem;
 }
 		
 	.button {
@@ -975,8 +975,7 @@ textarea:required {
         
     .button a {
             color: #fff;
-        }	  
- 
+        }
  
   /*Tshirts Einzelseite*/
 
