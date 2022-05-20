@@ -178,7 +178,7 @@ h4 {
 /*Burgermenü*/
 
 	.burger {
-		weight: 5%;
+		width: 15%;
 }
 
 	.burger:hover {
