@@ -182,8 +182,8 @@
 /*Burgermenü*/
 
 	.burger {
-		width: 10%;
-		max-width: 20rem;
+		width: 5%;
+		max-width: 10rem;
 }
 
 	.burger:hover {
