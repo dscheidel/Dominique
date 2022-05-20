@@ -177,11 +177,11 @@ h4 {
 }
 /*Burgermenü*/
 
-	burger {
+	.burger {
 		weight: 20rem;
 }
 
-	burger:hover {
+	.burger:hover {
 		transform: scale(1.1)
 }
 
