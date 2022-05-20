@@ -4,52 +4,54 @@
 
 /*Schriftarten*/
 
-@font-face {
-    font-family: "sedgwick";
-    src: url("SedgwickAveDisplay-Regular.ttf") format("truetype");
+	@font-face {
+    		font-family: "sedgwick";
+    		src: url("SedgwickAveDisplay-Regular.ttf") format("truetype");
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 }	
 
 
 /*Schrift*/
 
-  h4, h5, h6, p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 	 h4, h5, h6, p {
+  		font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-  font-family: "sedgwick";
-  color: #785E7A;
-  font-size: 3rem;
-  margin: 3rem
+	h2 {
+  		font-family: "sedgwick";
+  		color: #785E7A;
+  		font-size: 3rem;
+  		margin: 3rem;
 }
 
-h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
-  color: #785E7A;
+	h3 {
+  		font-family: Verdana, Geneva, Tahoma, sans-serif;
+  		font-size: 1.5rem;
+  		color: #785E7A;
 }
 
-h4 {
-  font-weight: bold;
+	h4 {
+  		font-weight: bold;
 }
+
 
 /*Body*/
 
-    body {
-        background-color: #000;
-        padding: 0.5rem;  
+    	body {
+       	 	background-color: #000;
+       	 	padding: 0.5rem;  
 }
+
 
 /*Buttons*/  
         
 	.container {
-        display: block;
+        	display: block;
 		width: 150px;
 		position: relative;
 		margin: 50px auto 0 auto;
@@ -98,7 +100,7 @@ h4 {
 		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
 }
 		
-    .button::before {
+    	.button::before {
 			content: "";
 			width: 110px;
 			height: 120px;
@@ -110,7 +112,7 @@ h4 {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 		
-    .button::after {
+    	.button::after {
 			content: "";
 			width: 110px;
 			height: 120px;
@@ -122,7 +124,7 @@ h4 {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 	
-    .button span {
+    	.button span {
 			
 		    	font-size: 5rem;
 			position: absolute;
@@ -136,22 +138,22 @@ h4 {
 			display: none;
 }
 		
-    .button:nth-child(odd) span {
+    	.button:nth-child(odd) span {
 			right: 50px;
 			left: auto;
 			transform-origin: right;
 			display: none;
 }
 
-    .button:hover span {
+    	.button:hover span {
 			width: auto;
 			transition: .5s .2s;
 			transform: rotateY(0);
 			display: none;
         }       
         
-    .button a {
-            color: #fff;
+	.button a {
+            		color: #fff;
         }
 
 
@@ -178,8 +180,8 @@ h4 {
 /*Burgermenü*/
 
 	.burger {
-		width: 20%;
-		max-width: 30rem;
+		width: 40%;
+		max-width: 40rem;
 }
 
 	.burger:hover {
