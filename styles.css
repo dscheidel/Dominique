@@ -470,7 +470,7 @@ textarea:required {
             justify-content: center;
 }
  
-        .social-menu i {
+        .social-menu img {
 	        color: #fff;
 	        width: 50px;
 	        height: 50px;
@@ -481,7 +481,7 @@ textarea:required {
             justify-content: center;         
 }
 
-        .social-menu i:before {
+        .social-menu img:before {
 	        display: flex;
 	        flex-flow: row nowrap;
 	        align-items: center;
@@ -493,27 +493,27 @@ textarea:required {
             background-color: #2F2F2F;
 }
         
-        .fa-facebook-f {
+        .fbicon {
 	        background: #4B4949;  
 } 
 
-        .fa-user-edit {
+        .daicon {
 	        background:#4B4949;
 }
 
-        .fa-lock {
+        .koicon {
 	        background:#4B4949;
 }
 
-        .fa-instagram {
+        .imicon {
 	        background:#4B4949;
 }
 
-        .fa-info {
+        .daticon {
 	        background:#4B4949;
 }
         
-        .social-menu i:hover {
+        .social-menu img:hover {
 	        opacity: .7;
 	        border-radius: 0;
 }
