@@ -472,10 +472,8 @@ textarea:required {
  
         .social-menu img {
 	        color: #fff;
-	        width: 50px;
-	        height: 50px;
+	        max_width: 5rem;
 	        border-radius: 50%;
-	        font-size: 20px;
 	        transition: all 0.2s ease-in-out;
 	        display: flex;
             justify-content: center;         
@@ -484,8 +482,7 @@ textarea:required {
         .social-menu img:before {
 	        display: flex;
 	        flex-flow: row nowrap;
-	        align-items: center;
-            font-weight: 100em;    
+	        align-items: center;    
 }
 
         .social-menu a {
