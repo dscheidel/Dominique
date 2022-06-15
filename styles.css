@@ -472,7 +472,7 @@ textarea:required {
  
         .social-menu img {
 	    color: #fff;
-	    max_width: 2rem;
+	    width: 100%;
 	    border-radius: 50%;
 	    transition: all 0.2s ease-in-out;
 	    display: flex;
@@ -492,22 +492,27 @@ textarea:required {
         
         .fbicon {
 	        background: #4B4949;  
+		max-width: 2rem;
 } 
 
         .daicon {
 	        background:#4B4949;
+		max-width: 2rem;
 }
 
         .koicon {
 	        background:#4B4949;
+		max-width: 2rem;
 }
 
         .imicon {
 	        background:#4B4949;
+		max-width: 2rem;
 }
 
         .daticon {
 	        background:#4B4949;
+		max-width: 2rem;
 }
         
         .social-menu img:hover {
