@@ -524,7 +524,7 @@ textarea:required {
 
   @media (min-width: 45em) {
 
-.container1 {
+.container {
     display: none;
   }
 	  
@@ -768,7 +768,7 @@ textarea:required {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%) rotate(0);
-		color: rgb(0, 0, 0);
+		color: #fff;
 		z-index: 10;
 		font-size: 40px;
 		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
@@ -784,7 +784,7 @@ textarea:required {
 			content: "";
 			width: 200px;
 			height: 200px;
-			background-color: rgb(255, 255, 255);
+			background-color: #2E2C2C;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -802,7 +802,7 @@ textarea:required {
 			content: "";
 			width: 200px;
 			height: 200px;
-			background-color: rgb(255, 255, 255);
+			background-color: #2E2C2C;
 			position: absolute;
 			top: 0;
 			left: -1px;
