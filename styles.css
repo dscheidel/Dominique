@@ -51,115 +51,115 @@
 /*Buttons*/  
 
 
-	.container1 {
-		display: none;
-}
-        
 	.container {
-        	display: block;
-		width: 150px;
-		position: relative;
-		margin: 50px auto 0 auto;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-		
-	.button {
-        
-		position: relative;
-		top: 0px;
-		left: 0;
-		width: 100px;
-		height: 110px;
-}	
-
-	.button:nth-of-type(2) {
-		top: -15px;
-		left: 55px;
-}	
-		
-	.button:nth-of-type(3) {
-		top: -30px;
-		left: 0;
-}	
-
-	.button:nth-of-type(4) {
-		top: -45px;
-		left: 55px;
+  display: none;
 }
 
-    	.button:nth-of-type(5) {
-		top: -60px;
-		left: 0px;
-}	
-		
-	.button p {
-		position: absolute;
-		text-align: center;
-		top: 55%;
-		left: 55%;
-		transform: translate(-50%, -50%) rotate(0);
-		color: #fff;
-		z-index: 5;
-		font-size: 1.2rem;
-        	font-weight: bold;
-		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
-}
-		
-    	.button::before {
-		content: "";
-		width: 110px;
-		height: 120px;
-		background-color: #2E2C2C;
-		position: absolute;
-		top: 0;
-		left: 0;
-		clip-path: polygon(0 25%, 50% 0, 50% 100%, 0 75%);
-		transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-		
-    	.button::after {
-		content: "";
-		width: 110px;
-		height: 120px;
-		background-color: #2E2C2C;
-		position: absolute;
-		top: 0;
-		left: -1px;
-		clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%);
-		transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-	
-    	.button span {
-			
-		font-size: 5rem;
-		position: absolute;
-		left: 50px;
-		height: 200px;
-		display: block;
-		line-height: 100px;
-		transform: rotateY(90deg);
-		transform-origin: left;
-		transition:  .5s;
-		display: none;
-}
-		
-    	.button:nth-child(odd) span {
-		right: 50px;
-		left: auto;
-		transform-origin: right;
-		display: none;
+.container1 {
+display: block;
+width: 150px;
+position: relative;
+margin: 50px auto 0 auto;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-    	.button:hover span {
-		width: auto;
-		transition: .5s .2s;
-		transform: rotateY(0);
-		display: none;
-        }       
-        
-	.button a {
-            	color: #fff;
-        }
+.button1 {
+
+position: relative;
+top: 0px;
+left: 0;
+width: 100px;
+height: 110px;
+}	
+
+.button1:nth-of-type(2) {
+top: -15px;
+left: 55px;
+}	
+
+.button1:nth-of-type(3) {
+top: -30px;
+left: 0;
+}	
+
+.button1:nth-of-type(4) {
+top: -45px;
+left: 55px;
+}
+
+.button1:nth-of-type(5) {
+top: -60px;
+left: 0px;
+}	
+
+.button1 p {
+position: absolute;
+text-align: center;
+top: 55%;
+left: 55%;
+transform: translate(-50%, -50%) rotate(0);
+color: #fff;
+z-index: 5;
+font-size: 1.2rem;
+  font-weight: bold;
+transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
+}
+
+.button1::before {
+content: "";
+width: 110px;
+height: 120px;
+background-color: #2E2C2C;
+position: absolute;
+top: 0;
+left: 0;
+clip-path: polygon(0 25%, 50% 0, 50% 100%, 0 75%);
+transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
+}
+
+.button1::after {
+content: "";
+width: 110px;
+height: 120px;
+background-color: #2E2C2C;
+position: absolute;
+top: 0;
+left: -1px;
+clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%);
+transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
+}
+
+.button1 span {
+
+font-size: 5rem;
+position: absolute;
+left: 50px;
+height: 200px;
+display: block;
+line-height: 100px;
+transform: rotateY(90deg);
+transform-origin: left;
+transition:  .5s;
+display: none;
+}
+
+.button1:nth-child(odd) span {
+right: 50px;
+left: auto;
+transform-origin: right;
+display: none;
+}
+
+.button1:hover span {
+width: auto;
+transition: .5s .2s;
+transform: rotateY(0);
+display: none;
+}       
+
+.button1 a {
+      color: #fff;
+}
 
 
 
@@ -524,137 +524,6 @@ textarea:required {
 
   @media (min-width: 45em) {
 
-	/*Buttons*/  	
-	  
-	.contain {
-		display: none;
-	  }
-	  
-	  .container1 {
-    display: block;
-		width: 200px;
-		position: relative;
-		margin: 150px auto 0 auto;
-		font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    max-width: 50rem;
-}
-		
-	.button {
-        
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 200px;
-		height: 210px;
-}	
-
-	.button:nth-of-type(2) {
-		top: -40px;
-		left: 100px;
-}	
-		
-	.button:nth-of-type(3) {
-		top: -80px;
-		left: 0;
-}	
-
-	.button:nth-of-type(4) {
-		top: -120px;
-		left: 100px;
-}
-
-    .button:nth-of-type(5) {
-		top: -160px;
-		left: 0px;
-}	
-		
-	.button p {
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%) rotate(0);
-		color: #fff;
-		z-index: 10;
-		font-size: 35px;
-		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
-}
-		
-    .button:hover p {
-			transform: translate(-50%, -50%) rotate(-27deg);
-			font-size: 0;
-			transition: .2s;
-			opacity: 0;
-}
-
-    .button::before {
-			content: "";
-			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
-			position: absolute;
-			top: 0;
-			left: 0;
-			clip-path: polygon(0 25%, 50% 0, 50% 100%, 0 75%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-		
-    .button:nth-child(odd):hover::before {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			transition: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
-}
-
-    .button::after {
-			content: "";
-			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
-			position: absolute;
-			top: 0;
-			left: -1px;
-			clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-	
-    .button:nth-child(even):hover::after {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
-}
-		
-    .button span {
-			
-		  font-size: 250px;
-			position: absolute;
-			left: 100px;
-			height: 200px;
-			display: block;
-			line-height: 205px;
-			transform: rotateY(90deg);
-			transform-origin: left;
-			transition:  .5s;
-			/*overflow: hidden;*/
-}
-		
-    .button:nth-child(odd) span {
-			right: 100px;
-			left: auto;
-			transform-origin: right;
-}
-
-    .button:hover span {
-			width: auto;
-			transition: .5s .2s;
-			transform: rotateY(0);
-        }       
-        
-    .button a {
-            color: #fff;
-        }
-
 	  
     /*Tshirts*/
 
@@ -852,24 +721,25 @@ textarea:required {
     
 /*Buttons*/  
         
-	.container {
-    	display: block;
+	.container1 {
+    display: none;
+  }
+       
+  .container {
+    display: block;
 		width: 200px;
 		position: relative;
-		margin: 150px auto 0 auto;
+		margin: 50px auto;
 		font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    	max-width: 50rem;
 }
 		
 	.button {
-        
 		position: relative;
 		top: 0;
 		left: 0;
 		width: 200px;
-		height: 210px;
+		height: 200px;
 }	
-
 	.button:nth-of-type(2) {
 		top: -40px;
 		left: 100px;
@@ -879,15 +749,14 @@ textarea:required {
 		top: -80px;
 		left: 0;
 }	
-
 	.button:nth-of-type(4) {
 		top: -120px;
 		left: 100px;
-}
+}	
 
-    .button:nth-of-type(5) {
-		top: -160px;
-		left: 0px;
+  .button:nth-of-type(5) {
+    top: -160px;
+    left: 0px;
 }	
 		
 	.button p {
@@ -896,24 +765,23 @@ textarea:required {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%) rotate(0);
-		color: #fff;
+		color: rgb(0, 0, 0);
 		z-index: 10;
-		font-size: 35px;
+		font-size: 40px;
 		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
 }
 		
-    .button:hover p {
+		.button:hover p {
 			transform: translate(-50%, -50%) rotate(-27deg);
 			font-size: 0;
 			transition: .2s;
 			opacity: 0;
 }
-
-    .button::before {
+		.button::before {
 			content: "";
 			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
+			height: 200px;
+			background-color: rgb(255, 255, 255);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -921,18 +789,17 @@ textarea:required {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 		
-    .button:nth-child(odd):hover::before {
+		.button:nth-child(odd):hover::before {
 			width: 0;
 			left: 100px;
 			transition: clip-path .2s, width .2s .2s, left .2s .2s;
 			transition: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
 }
-
-    .button::after {
+		.button::after {
 			content: "";
 			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
+			height: 200px;
+			background-color: rgb(255, 255, 255);
 			position: absolute;
 			top: 0;
 			left: -1px;
@@ -940,42 +807,41 @@ textarea:required {
 			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
 }
 	
-    .button:nth-child(even):hover::after {
+		.button:nth-child(even):hover::after {
 			width: 0;
-			left: 100px;
+			left: 99px;
 			transition: clip-path .2s, width .2s .2s, left .2s .2s;
 			clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
 }
 		
-    .button span {
+		.button span {
 			
-		  font-size: 250px;
+		font-size: 252px;
 			position: absolute;
-			left: 120px;
+			left: 100px;
 			height: 200px;
 			display: block;
-			line-height: 205px;
+			line-height: 200px;
 			transform: rotateY(90deg);
 			transform-origin: left;
 			transition:  .5s;
+			overflow: hidden;
 }
 		
-    .button:nth-child(odd) span {
-			right: 120px;
+		.button:nth-child(odd) span {
+			right: 100px;
 			left: auto;
 			transform-origin: right;
 }
-
-    .button:hover span {
+		.button:hover span {
 			width: auto;
 			transition: .5s .2s;
 			transform: rotateY(0);
         }       
         
-    .button a {
-            color: #fff;
+        .button a {
+            color: rgb(255, 255, 255);
         }
-
   /*Nav*/
 
   nav ul {
@@ -997,132 +863,6 @@ textarea:required {
   }
 
 
-/*Buttons*/  
-        
-	.container {
-    display: block;
-		width: 200px;
-		position: relative;
-		margin: 150px auto 0 auto;
-		font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    max-width: 50rem;
-}
-		
-	.button {
-        
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 200px;
-		height: 210px;
-}	
-
-	.button:nth-of-type(2) {
-		top: -40px;
-		left: 100px;
-}	
-		
-	.button:nth-of-type(3) {
-		top: -80px;
-		left: 0;
-}	
-
-	.button:nth-of-type(4) {
-		top: -120px;
-		left: 100px;
-}
-
-    .button:nth-of-type(5) {
-		top: -160px;
-		left: 0px;
-}	
-		
-	.button p {
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%) rotate(0);
-		color: #fff;
-		z-index: 10;
-		font-size: 35px;
-		transition: .3s cubic-bezier(0,2.17,.83,1.36) .3s;
-}
-		
-    .button:hover p {
-			transform: translate(-50%, -50%) rotate(-27deg);
-			font-size: 0;
-			transition: .2s;
-			opacity: 0;
-}
-
-    .button::before {
-			content: "";
-			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
-			position: absolute;
-			top: 0;
-			left: 0;
-			clip-path: polygon(0 25%, 50% 0, 50% 100%, 0 75%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-		
-    .button:nth-child(odd):hover::before {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			transition: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
-}
-
-    .button::after {
-			content: "";
-			width: 200px;
-			height: 210px;
-			background-color: #2E2C2C;
-			position: absolute;
-			top: 0;
-			left: -1px;
-			clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%);
-			transition: clip-path .2s .5s, width .2s .2s, left .2s .2s;
-}
-	
-    .button:nth-child(even):hover::after {
-			width: 0;
-			left: 100px;
-			transition: clip-path .2s, width .2s .2s, left .2s .2s;
-			clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
-}
-		
-    .button span {
-			
-		  font-size: 250px;
-			position: absolute;
-			left: 100px;
-			height: 200px;
-			display: block;
-			line-height: 205px;
-			transform: rotateY(90deg);
-			transform-origin: left;
-			transition:  .5s;
-			/*overflow: hidden;*/
-}
-		
-    .button:nth-child(odd) span {
-			right: 100px;
-			left: auto;
-			transform-origin: right;
-}
-
-    .button:hover span {
-			width: auto;
-			transition: .5s .2s;
-			transform: rotateY(0);
-        }       
-        
-    .button a {
-            color: #fff;
-        }
  
   /*Tshirts Einzelseite*/
 
