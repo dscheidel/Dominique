@@ -458,76 +458,65 @@ textarea:required {
 
 /*Footer*/
 
-        .social-menu {
+.social-menu {
 	    display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-gap: 0.3rem;
-	    list-style-type: none;
             background-color: #2E2C2C;
             padding: 1rem;
-            width: 100%;
             margin-top: 3rem;
-            justify-content: center;
+            text-align: center;
 }
  
         .social-menu img {
 	    color: #fff;
 	    width: 100%;
 	    transition: all 0.2s ease-in-out;
-            justify-content: center;         
+    
 }
 
         .social-menu img:before {
-	        display: flex;
-	        flex-flow: row nowrap;
-	        align-items: center;    
+	    border-radius: 50%;
+            padding: 2rem;
+            
 }
 
         .social-menu a {
-	        text-decoration: none;
-            	background-color: #2F2F2F;
+	    text-decoration: none;
 }
         
         .fbicon {
-	        background: #4B4949;  
-		max-width: 2rem;
+		max-width: 2.5rem;
 		grid-column: 1;
       		grid-row: 1;
 } 
 
         .daicon {
-	        background:#4B4949;
-		max-width: 2rem;
+		max-width: 2.5rem;
 		grid-column: 2;
       		grid-row: 1;
 }
 
         .koicon {
-	        background:#4B4949;
-		max-width: 2rem;
+		max-width: 2.5rem;
 		grid-column: 3;
       		grid-row: 1;
 }
 
         .imicon {
-	        background:#4B4949;
-		max-width: 2rem;
+		max-width: 2.5rem;
 		grid-column: 4;
       		grid-row: 1;
 }
 
         .daticon {
-	        background:#4B4949;
-		max-width: 2rem;
+		max-width: 2.5rem;
 		grid-column: 5;
       		grid-row: 1;
 }
         
         .social-menu img:hover {
 	        opacity: .7;
-	        border-radius: 0;
 }
-   
 
 
 /*Media query*/
