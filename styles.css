@@ -459,10 +459,10 @@ textarea:required {
 /*Footer*/
 
         .social-menu {
-	        display: grid;
+	    display: grid;
             grid-template-columns: repeat(5, auto);
             grid-gap: 1.3rem;
-	        list-style-type: none;
+	    list-style-type: none;
             background-color: #2E2C2C;
             padding: 2em 0;
             width: 100%;
@@ -471,11 +471,11 @@ textarea:required {
 }
  
         .social-menu img {
-	        color: #fff;
-	        max_width: 5rem;
-	        border-radius: 50%;
-	        transition: all 0.2s ease-in-out;
-	        display: flex;
+	    color: #fff;
+	    max_width: 2rem;
+	    border-radius: 50%;
+	    transition: all 0.2s ease-in-out;
+	    display: flex;
             justify-content: center;         
 }
 
