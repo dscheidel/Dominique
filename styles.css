@@ -460,7 +460,7 @@ textarea:required {
 
         .social-menu {
 	    display: grid;
-            grid-template-columns: repeat(5, auto);
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-gap: 1.3rem;
 	    list-style-type: none;
             background-color: #2E2C2C;
@@ -473,9 +473,7 @@ textarea:required {
         .social-menu img {
 	    color: #fff;
 	    width: 100%;
-	    border-radius: 50%;
 	    transition: all 0.2s ease-in-out;
-	    display: flex;
             justify-content: center;         
 }
 
