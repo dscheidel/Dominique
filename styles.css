@@ -461,12 +461,12 @@ textarea:required {
         .social-menu {
 	    display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-gap: 1.3rem;
+            grid-gap: 0.3rem;
 	    list-style-type: none;
             background-color: #2E2C2C;
-            padding: 2em 0;
+            padding: 1rem;
             width: 100%;
-            margin-top: 5em;
+            margin-top: 3rem;
             justify-content: center;
 }
  
@@ -485,7 +485,7 @@ textarea:required {
 
         .social-menu a {
 	        text-decoration: none;
-            background-color: #2F2F2F;
+            	background-color: #2F2F2F;
 }
         
         .fbicon {
