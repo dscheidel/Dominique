@@ -524,6 +524,9 @@ textarea:required {
 
   @media (min-width: 45em) {
 
+.container1 {
+    display: none;
+  }
 	  
     /*Tshirts*/
 
