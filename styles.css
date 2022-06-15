@@ -462,7 +462,7 @@ textarea:required {
 	    display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             background-color: #2E2C2C;
-            padding: 1rem;
+            padding: 2rem;
             margin-top: 5rem;
             text-align: center;
 	
