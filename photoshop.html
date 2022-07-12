@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photoshop</title>
+            <link rel="stylesheet" href="all.css">
+            <link rel="stylesheet" href="styles.css">
+
+            <script>
+
+                'use strict';
+                document.addEventListener('DOMContentLoaded', function () {
+                    
+                    let mainNav = document.getElementById('js-menu');
+                    let navBarToggle = document.getElementById('js-navbar-toggle');
+                    
+                    navBarToggle.addEventListener('click', toggleNavBar);
+                    
+                    function toggleNavBar() {
+                        mainNav.classList.toggle('active');
+                    }
+                    
+                });
+
+
+            </script>
+</head>
+
+<body>
+      
+    <header>
+        <a href="start.html"><h1>Plotterbilly</h1></a>
+    </header>
+    
+    
+    <nav class="navbar">   
+        <div id="js-navbar-toggle"><img class="burger" src="svgburger.svg" alt="burgermenue"></div>
+  
+        <ul class="main-nav" id="js-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="logo.html">Work</a></li>
+            <li><a href="baby.html">Web</a></li>
+            <li><a href="photoshop.html">Photoshop</a></li>
+            <li><a href="illustration.html">Illustrationen</a></li>
+            <li><a href="shirts.html">Shirts</a></li>
+          </ul>
+      </nav>
+    
+    
+    
+    
+        <main class="photogalerie">
+            <div class="photoseite">
+                
+                    <img id="photo1" src="pexels-anna-tarazevich-62687073.jpg" alt="Frau mit Akne">
+                    <img id="photo2" src="pexels-anna-tarazevich-62687071.jpg" alt="Frau ohne Akne bearbeitet">
+                    <img id="photo3" src="pexels-anna-tarazevich-6268707.jpg" alt="Frau ohne Akne bearbeitet schwarz weiss">
+                    <img id="photo4" src="justdoit1.jpg" alt="Frau beim Sport">
+                    <img id="photo5" src="justdoit.jpg" alt="Frau beim Sport">
+                    <img id="photo6" src="20211210_174837.jpg" alt="Baby mit Weihnachtsmütze">
+                    <img id="photo7" src="annie-spratt-ewbFRHOKxxI-unsplash.jpg" alt="Baby mit Weihnachtsmütze bearbeitet">
+                    <img id="photo8" src="1.jpg" alt="Junges Mädchen in schwarz weiss">
+                    <img id="photo9" src="11.jpg" alt="Junges Mädchen in farbe bearbeitet">
+                    <img id="photo10" src="1361_001.jpg" alt="Hochzeitsfoto vintage">
+                    <img id="photo11" src="Hochzeit.jpg" alt="Hochzeitsfoto bearbeitet">
+                    <img id="photo12" src="american-football-2962949_1920.jpg" alt="Footballspieler gegen Nashorn">
+     
+            </div>
+        </main>
+    
+<footer>
+        <div class="social-menu"> 
+            <a href="https://facebook.com/plotterbilly" target="_blank"><img class="fbicon" src="facebook_icon.svg" alt="facebook icon"></a>
+            <a href="https://instagram.com/plotterbilly" target="_blank"><img class="daicon" src="instagram_icon.svg" alt="instagram icon"></a>
+            <a href="kontakt.html"><img class="koicon" src="kontakt_icon.svg" alt="kontakt icon"></a>
+            <a href="impressum.html"><img class="imicon" src="impressum_icon.svg" alt="impressum icon">
+            <a href="datenschutz.html"><img class="daticon" src="datenschutz_icon.svg" alt="datenschutz icon"></a>
+         </div>
+    </footer>
+      
+    
+    
+
+
+</body>
+</html>

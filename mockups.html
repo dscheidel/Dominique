@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mockups</title>
+<link rel="stylesheet" href="all.css">
+<link rel="stylesheet" href="styles.css">
+
+<script>
+    'use strict';
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        
+        navBarToggle.addEventListener('click', toggleNavBar);
+        
+        function toggleNavBar() {
+            mainNav.classList.toggle('active');
+        }
+        
+    });
+</script>
+</head>
+
+<body>
+    
+    <header>
+    <h1>Plotterbilly</h1>
+    </header>
+    
+    
+    <nav class="navbar">   
+        <div id="js-navbar-toggle"><i class="fa fa-bars"></i></div>
+  
+        <ul class="main-nav" id="js-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="logo.html">Work</a></li>
+            <li><a href="baby.html">Web</a></li>
+            <li><a href="photoshop.html">Photoshop</a></li>
+            <li><a href="illustration.html">Illustrationen</a></li>
+            <li><a href="shirts.html">Shirts</a></li>
+          </ul>
+      </nav>
+    
+    
+    <main>
+    <img src="Chiefs_Plakat_in_Mockup.png" alt="Chiefs Plakat">
+    <img src="123.png" alt="Essbereich mit Bild an der Wand">
+    
+    
+    </main>
+    
+    
+   <footer>
+        <div class="social-menu"> 
+            <a href="https://facebook.com/plotterbilly" target="_blank"><img class="fbicon" src="facebook_icon.svg" alt="facebook icon"></a>
+            <a href="https://instagram.com/plotterbilly" target="_blank"><img class="daicon" src="instagram_icon.svg" alt="instagram icon"></a>
+            <a href="kontakt.html"><img class="koicon" src="kontakt_icon.svg" alt="kontakt icon"></a>
+            <a href="impressum.html"><img class="imicon" src="impressum_icon.svg" alt="impressum icon">
+            <a href="datenschutz.html"><img class="daticon" src="datenschutz_icon.svg" alt="datenschutz icon"></a>
+         </div>
+    </footer>
+    
+        
+</body>
+</html>
