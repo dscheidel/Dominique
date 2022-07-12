@@ -48,6 +48,20 @@
 }
 
 
+
+/*Container*/
+
+#container {
+	width: 80%;
+	margin: 20px auto;
+	min-height: 700px;
+}
+
+#container svg {
+	min-height: 700px;
+}
+
+
 /*Buttons*/  
 
 
