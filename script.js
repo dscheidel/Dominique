@@ -1,60 +1,60 @@
 var fontSize = 72;
-if (window.screen.width < 700) fontSize = 32;
+if (window.screen.width < 700) fontSize = 28;
 else if (window.screen.width < 1200) fontSize = 56;
 var vara = new Vara(
    "#container",
    "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Satisfy/SatisfySL.json",
    [
       {
-         text: "My name is Dominique Scheidel",
+         text: "Du hast es geschafft!",
          y: 150,
          fromCurrentPosition: { y: false },
          duration: 3000
       },
       {
-         text: "hello Dominique, my name is Tom Riddle",
+         text: "Du bist auf meinem Portfolio gelandet...",
          y: 150,
          fromCurrentPosition: { y: false },
          delay: 3000,
          duration: 4000
       },
       {
-         text: "Do you know anything about the Chamber of Secrets ?",
-         y: 150,
-         fromCurrentPosition: { y: false },
-         delay: 3000,
-         duration: 4500
-      },
-      {
-         text: "Yes",
-         y: 150,
-         fromCurrentPosition: { y: false },
-         delay: 3000,
-         duration: 1000
-      },
-      {
-         text: "Can you tell me ?",
+         text: "Schau dich ruhig um..",
          y: 150,
          fromCurrentPosition: { y: false },
          delay: 3000,
          duration: 4000
       },
       {
-         text: "No",
-         y: 150,
-         fromCurrentPosition: { y: false },
-         delay: 3000,
-         duration: 1000
-      },
-      {
-         text: "But I can show you",
+         text: "es gibt einiges zu endecken!",
          y: 150,
          fromCurrentPosition: { y: false },
          delay: 3000,
          duration: 4000
       },
       {
-         text: "Let me take you back fifty years ago",
+         text: "Wenn Du Fragen hast...",
+         y: 150,
+         fromCurrentPosition: { y: false },
+         delay: 3000,
+         duration: 4000
+      },
+      {
+         text: "melde dich einfach per Email bei mir!",
+         y: 150,
+         fromCurrentPosition: { y: false },
+         delay: 3000,
+         duration: 4000
+      },
+      {
+         text: "Ansonsten viel Spass beim stoebern!",
+         y: 150,
+         fromCurrentPosition: { y: false },
+         delay: 3000,
+         duration: 4000
+      },
+      {
+         text: "Dominique Scheidel",
          y: 150,
          fromCurrentPosition: { y: false },
          delay: 3000,
@@ -83,4 +83,5 @@ vara.ready(function () {
       document.querySelector("#link").click();
    };
 });
+
 
