@@ -1,6 +1,6 @@
 var fontSize = 72;
 if (window.screen.width < 700) fontSize = 28;
-else if (window.screen.width < 1200) fontSize = 56;
+else if (window.screen.width < 1200) fontSize = 50;
 var vara = new Vara(
    "#container",
    "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Satisfy/SatisfySL.json",
