@@ -517,12 +517,14 @@ textarea:required {
 
         .imicon {
 		max-width: 2.5rem;
+		max-height: 2.5rem;
 		grid-column: 4;
       		grid-row: 1;
 }
 
         .daticon {
 		max-width: 2.5rem;
+		max-height: 2.5rem;
 		grid-column: 5;
       		grid-row: 1;
 }
