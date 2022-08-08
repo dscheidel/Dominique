@@ -1135,6 +1135,16 @@ textarea:required {
     transform: scale(1.2);
     border: 5px solid #fff;
   }
+	  
+    #logo23:hover {
+    transform: scale(1.2);
+    border: 5px solid #fff;
+  }
+	  
+    #logo24:hover {
+    transform: scale(1.2);
+    border: 5px solid #fff;
+  }
 
   /*Illuseite*/
 
