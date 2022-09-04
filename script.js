@@ -26,7 +26,7 @@ var vara = new Vara(
          duration: 4000
       },
       {
-         text: "es gibt einiges zu endecken!",
+         text: "es gibt viel zu endecken!",
          y: 150,
          fromCurrentPosition: { y: false },
          delay: 3000,
