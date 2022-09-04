@@ -499,25 +499,28 @@ textarea:required {
         
         .fbicon {
 		max-width: 3rem;
+		max-height: 3rem;
 		grid-column: 1;
       		grid-row: 1;
 } 
 
         .daicon {
 		max-width: 3rem;
+		max-height: 3rem;
 		grid-column: 2;
       		grid-row: 1;
 }
 
         .koicon {
 		max-width: 2.5rem;
+		max-height: 3rem;
 		grid-column: 3;
       		grid-row: 1;
 }
 
         .imicon {
 		max-width: 2.5rem;
-		max-height: 2.5rem;
+		max-height: 3rem;
 		grid-column: 4;
       		grid-row: 1;
 }
