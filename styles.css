@@ -52,7 +52,7 @@
 /*Container*/
 
 #container {
-	width: 80%;
+	width: 100%;
 	margin: 20px auto;
 	min-height: 700px;
 }
@@ -71,7 +71,7 @@
 
 .container1 {
 display: block;
-width: 150px;
+width: 200px;
 position: relative;
 margin: 50px auto 0 auto;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -297,7 +297,7 @@ display: none;
 
     	main {
         	margin: auto;
-        	max-width: 65rem;
+        	max-width: 75rem;
         	text-align: center;
 }
 
