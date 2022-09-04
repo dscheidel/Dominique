@@ -13,7 +13,7 @@ var vara = new Vara(
       },
       {
          text: "Du bist auf meinem Portfolio gelandet...",
-         y: 150,
+         y: 200,
          fromCurrentPosition: { y: false },
          delay: 3000,
          duration: 4000
