@@ -134,21 +134,21 @@
          </div>
     </footer>
     
-    <script>  
-        function toggleMenu() {
+   <script>
+        'use strict';
+        document.addEventListener('DOMContentLoaded', function () {
             
-            var toggleLinks = document.getElementsByClassName("toggle-link");
+            let mainNav = document.getElementById('js-menu');
+            let navBarToggle = document.getElementById('js-navbar-toggle');
             
-                for(var i=0; i<toggleLinks.length; i++) {
-                    
-                    if(toggleLinks[i].style.display === "block") {
-                       toggleLinks[i].style.display = "none";
-                       } else {
-                           toggleLinks[i].style.display = "block";
-                       }
+            navBarToggle.addEventListener('click', toggleNavBar);
+            
+            function toggleNavBar() {
+                mainNav.classList.toggle('active');
             }
-        }
-        </script>
+            
+        });
+    </script>
     
 </body>
 </html>
