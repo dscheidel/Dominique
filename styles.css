@@ -181,7 +181,7 @@ display: none;
 
 	header {
     		text-align: center;
-		width: 100%;
+		
 		
     
 }
@@ -200,7 +200,7 @@ display: none;
 }
 
 	.logoheader {
-		max-width: 3rem;
+		max-width: 2rem;
 
 
 /*Burgermenü*/
