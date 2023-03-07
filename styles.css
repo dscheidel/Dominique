@@ -1155,7 +1155,12 @@ textarea:required {
     border: 5px solid #fff;
   }
 	  
-	#logo25:hover {
+    #logo25:hover {
+    transform: scale(1.2);
+    border: 5px solid #fff;
+  }
+	  
+    #logo26:hover {
     transform: scale(1.2);
     border: 5px solid #fff;
   }
