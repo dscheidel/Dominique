@@ -64,7 +64,7 @@
 
 /*Buttons*/  
 
-#itbutton {
+.itbutton {
 	border: 2px solid pink;
 	width: 50px;
 	height: auto;
