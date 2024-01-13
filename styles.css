@@ -64,6 +64,11 @@
 
 /*Buttons*/  
 
+.itbutton {
+	max-with: 90px,
+	height: auto;
+}
+
 
 	.container {
   display: none;
