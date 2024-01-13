@@ -65,7 +65,8 @@
 /*Buttons*/  
 
 #itbutton a {
-	width: 50%;
+	width: 50px;
+	height: auto;
 }
 
 
