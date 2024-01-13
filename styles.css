@@ -329,8 +329,7 @@ display: none;
 }
 
 main .itbutton {
-	border: 2px solid pink;
-	width: 50px;
+	width: 50%;
 	height: auto;
 }
   
